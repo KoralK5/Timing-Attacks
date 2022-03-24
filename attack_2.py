@@ -6,7 +6,7 @@ def compare(PIN):
     f.write(PIN)
     f.close()
     for i in range(100):
-        os.system(f"C:\\Users\\kulac\\Coding\\Competitive\\picoCTF\\2022\\298\\pin_checker < PIN.txt")
+        os.system(f"./pin_checker < PIN.txt")
 
 def compare1(PIN):
     for i in range(100):
